@@ -37,6 +37,7 @@ public class RecognizeService {
 		ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.POST, entity, String.class);
 
 		System.out.println(response.getBody());
+		// teste
 
 	}
 }
